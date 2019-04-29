@@ -36,6 +36,21 @@ class Eliminatoria:
     def nuevo_partido(self, equipo1, equipo2, fecha):
         Partido(fecha, [equipo1, equipo2])
 
+    def nuevo_ganador(self):
+        contador_equipo1 = 0
+        contador_equipo2 = 0
+        for equipo in self.partidos:
+            if equipo == self.equipos[0]:
+                contador_equipo1 += 1
+            elif equipo == self.equipos[1]:
+                contador_equipo2 += 1
+                
+            if contador_equipo1 == 4:
+                return self.equipos[0]
+            elif contador_equipo2 == 4:
+                return self.equipos[1]
+
+
 class Temporada:
     def __init__(self, nombre, equipos = [], eliminatorias = []):
         self.nombre = nombre
