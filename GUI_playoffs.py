@@ -35,13 +35,6 @@ class Application:
         self.builder.get_object('equipo15').configure(text=temporada.equipos[14].iniciales)
         self.builder.get_object('equipo16').configure(text=temporada.equipos[15].iniciales)
 
-
-        self.colocar_equipos()
-
-    def colocar_equipos(self):
-        print('hola')
-        self.lblEquipo1 = Label(principal, text='hola')
-
 if __name__ == '__main__':
     Warriors = Equipo('Golden State Warriors', 'GSW')
     Clippers = Equipo('LA Clippers', 'LAC')
