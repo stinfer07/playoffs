@@ -1,7 +1,7 @@
 from datetime import timedelta
 
 class Equipo:
-    def __init__(self, nombre, iniciales, logo = ''):
+    def __init__(self, nombre, iniciales, logo = None):
         self.nombre = nombre
         self.iniciales = iniciales
         self.logo = logo
@@ -32,7 +32,6 @@ class Eliminatoria:
             return 'Eliminatoria: ' + str(self.equipos[0]) + ' vs ' + str(self.equipos[1])
         else:
             return 'Eliminatoria: ' + str(self.equipos[0]) + ' vs ' + str(self.equipos[1]) + '\tGanador: ' + str(self.ganador)
-<<<<<<< HEAD
 
     def nuevo_partido(self, equipo1, equipo2, fecha):
         Partido(fecha, [equipo1, equipo2])
@@ -50,12 +49,6 @@ class Eliminatoria:
                 return self.equipos[0]
             elif contador_equipo2 == 4:
                 return self.equipos[1]
-
-=======
-
-    def nuevo_partido(self, equipo1, equipo2, fecha):
-        Partido(fecha, [equipo1, equipo2])
->>>>>>> 2da130e1728fbbe5bdada2fa6ada5b4ff51d3ea4
 
 class Temporada:
     def __init__(self, nombre, equipos = [], eliminatorias = []):
