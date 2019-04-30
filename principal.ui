@@ -13,9 +13,9 @@
     <child>
       <object class="ttk.Label" id="equipo1">
         <property name="compound">left</property>
-        <property name="cursor">arrow</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -25,8 +25,10 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo2">
+        <property name="compound">left</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -36,9 +38,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo3">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo3</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -48,9 +52,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo4">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo4</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -60,9 +66,12 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo5">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo5</property>
+        <property name="text" translatable="yes"> </property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -72,9 +81,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo6">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo6</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -84,9 +95,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo7">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -96,9 +109,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo8">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo8</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">0</property>
           <property name="propagate">True</property>
@@ -108,9 +123,10 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo9">
+        <property name="compound">right</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo9</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -120,9 +136,10 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo10">
+        <property name="compound">right</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo10</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -132,9 +149,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo11">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo11</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -144,9 +163,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo12">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo12</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -156,9 +177,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo13">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo13</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -168,9 +191,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo14">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo14</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -180,9 +205,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo15">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo15</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -192,9 +219,11 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo16">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">equipo16</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">8</property>
           <property name="propagate">True</property>
@@ -204,14 +233,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_1">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">
-</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">1</property>
-          <property name="padx">10</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">1</property>
         </layout>
@@ -219,13 +248,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_2">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">
-</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">1</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">5</property>
         </layout>
@@ -233,11 +263,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_3">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">1</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">9</property>
         </layout>
@@ -245,11 +278,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_4">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">1</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">13</property>
         </layout>
@@ -257,12 +293,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_5">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">7</property>
-          <property name="padx">10</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">1</property>
         </layout>
@@ -270,11 +308,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_6">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">7</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">5</property>
         </layout>
@@ -282,11 +323,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_7">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">7</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">9</property>
         </layout>
@@ -294,11 +338,14 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo1_8">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">7</property>
+          <property name="padx">15</property>
           <property name="propagate">True</property>
           <property name="row">13</property>
         </layout>
@@ -306,12 +353,13 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo2_1">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">2</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">3</property>
         </layout>
@@ -319,12 +367,13 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo2_2">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">2</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">11</property>
         </layout>
@@ -332,12 +381,13 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo2_3">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">6</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">3</property>
         </layout>
@@ -345,14 +395,13 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo2_4">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="text" translatable="yes">
-</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">6</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">11</property>
         </layout>
@@ -360,13 +409,13 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo3_1">
+        <property name="compound">left</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">3</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">7</property>
         </layout>
@@ -374,27 +423,155 @@
     </child>
     <child>
       <object class="ttk.Label" id="equipo3_2">
+        <property name="compound">right</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
         <property name="relief">groove</property>
-        <property name="width">7</property>
+        <property name="width">3</property>
         <layout>
           <property name="column">5</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
           <property name="propagate">True</property>
           <property name="row">7</property>
         </layout>
       </object>
     </child>
     <child>
+      <object class="ttk.Label" id="txt_winner">
+        <property name="text" translatable="yes">GANADOR:</property>
+        <layout>
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
       <object class="ttk.Label" id="winner">
+        <property name="compound">top</property>
+        <property name="justify">center</property>
         <property name="padding">5</property>
-        <property name="relief">groove</property>
+        <property name="relief">ridge</property>
         <property name="width">9</property>
         <layout>
           <property name="column">4</property>
           <property name="propagate">True</property>
           <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="btnNuevo">
+        <property name="command">frmNuevo</property>
+        <property name="cursor">hand2</property>
+        <property name="default">normal</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">Nuevo resultado</property>
+        <layout>
+          <property name="column">4</property>
+          <property name="propagate">True</property>
+          <property name="row">13</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+  <object class="ttk.Frame" id="nuevo_resultado">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">15</property>
+    </layout>
+    <child>
+      <object class="ttk.Label" id="txt_equipo1">
+        <property name="text" translatable="yes">Equipo 1</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="cb_eq1">
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="padx">5</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="txt_equipo2">
+        <property name="text" translatable="yes">Equipo 2</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="cb_eq2">
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="padx">10</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Label" id="txt_ganador">
+        <property name="text" translatable="yes">Ganador</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Combobox" id="cb_ganador">
+        <layout>
+          <property name="column">0</property>
+          <property name="columnspan">2</property>
+          <property name="padx">5</property>
+          <property name="propagate">True</property>
+          <property name="row">5</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="btn_cancel">
+        <property name="text" translatable="yes">Cancelar</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="padx">5</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="btn_aceptar">
+        <property name="text" translatable="yes">Aceptar</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="padx">5</property>
+          <property name="pady">5</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
         </layout>
       </object>
     </child>

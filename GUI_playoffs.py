@@ -18,6 +18,7 @@ class Application:
 
         #3: Create the widget using a master as parent
         self.mainwindow = builder.get_object('principal', master)
+        self.builder.connect_callbacks(self)
 
         self.builder.get_object('equipo1').configure(text=temporada.equipos[0].iniciales, image=temporada.equipos[0].img_logo)
         self.builder.get_object('equipo2').configure(text=temporada.equipos[1].iniciales, image=temporada.equipos[1].img_logo)
@@ -35,6 +36,19 @@ class Application:
         self.builder.get_object('equipo14').configure(text=temporada.equipos[13].iniciales, image=temporada.equipos[13].img_logo)
         self.builder.get_object('equipo15').configure(text=temporada.equipos[14].iniciales, image=temporada.equipos[14].img_logo)
         self.builder.get_object('equipo16').configure(text=temporada.equipos[15].iniciales, image=temporada.equipos[15].img_logo)
+
+    def frmNuevo(self):
+        self.builder2 = pygubu.Builder()
+        self.builder2.add_from_file('principal.ui')
+        self.top = tk.Toplevel(self.mainwindow)
+        self.builder2.get_object('nuevo_resultado', self.top)
+        self.builder2.connect_callbacks(self)
+
+        self.lista_equipos = []
+        for nombre in self.temporada.equipos:
+            self.lista_equipos.append(nombre)
+        self.builder2.get_object("cb_eq1")["values"] = self.lista_equipos
+        self.builder2.get_object("cb_eq2")["values"] = self.lista_equipos
 
 if __name__ == '__main__':
     Warriors = Equipo('Golden State Warriors', 'GSW')
@@ -54,20 +68,28 @@ if __name__ == '__main__':
     Magic = Equipo('Orlando Magic', 'ORL')
     Raptors = Equipo('Toronto Raptors', 'TOR')
 
-    
-
     equipos = [Warriors, Clippers, Rockets, Jazz, Blazers, Thunder, Nuggets, 
                Spurs, Bucks, Pistons, Celtics, Pacers, Nets, Philadelphia, Magic, Raptors]
+
+    eliminatorias = [Eliminatoria([Warriors, Clippers]), 
+                     Eliminatoria([Rockets, Jazz]), 
+                     Eliminatoria([Blazers, Thunder]), 
+                     Eliminatoria([Nuggets, Spurs]), 
+                     Eliminatoria([Bucks, Pistons]), 
+                     Eliminatoria([Celtics, Pacers]), 
+                     Eliminatoria([Nets, Philadelphia]), 
+                     Eliminatoria([Magic, Raptors])
+                     ]
 
     principal = tk.Tk()
 
     # Se cargan las imágenes de logos
     lista_logos = []
     for equipo in equipos:
-        equipo.img_logo = tk.PhotoImage(file="iloveimg-resized/"+equipo.iniciales+".png")
+        equipo.img_logo = tk.PhotoImage(file="logos_resize/"+equipo.iniciales+".png")
         lista_logos.append(equipo.img_logo)
-        print('hola')
 
-    t = Temporada('2018/19', equipos)
+    t = Temporada('2018/19', equipos, eliminatorias)
     app = Application(principal, t)
     principal.mainloop()
+    

@@ -10,9 +10,8 @@ class Equipo:
         return self.nombre + '(' + self.iniciales + ')'
 
 class Partido:
-    def __init__(self, fecha, equipos = [], ganador = None):
+    def __init__(self, equipos = [], ganador = None):
         self.equipos = equipos
-        self.fecha = fecha
         self.ganador = ganador
     
     def __str__(self):
@@ -36,6 +35,7 @@ class Eliminatoria:
     def nuevo_partido(self, equipo1, equipo2, fecha):
         Partido(fecha, [equipo1, equipo2])
 
+# Comprobar
     def nuevo_ganador(self):
         contador_equipo1 = 0
         contador_equipo2 = 0
@@ -62,9 +62,20 @@ class Temporada:
             string += '\t' + str(equipo) + '\n'
         return string
     
+    #comprobar
     def nueva_eliminatoria(self, equipo1, equipo2, fecha):
         lista_partidos = []
-        for i in range(4):
+        for i in range(7):
             lista_partidos.append(Partido(fecha, [equipo1, equipo2]))
             fecha += timedelta(days=2)
         self.eliminatorias.append(Eliminatoria([equipo1, equipo2], lista_partidos))
+
+    def busca_eliminatoria(self, equipo1, equipo2):
+        for eliminatoria in self.eliminatorias:
+            if [equipo1, equipo2] == eliminatoria.equipos:
+                return eliminatoria
+    
+    def introduce_resultado(self, eliminatoria, ganador):
+        for partido in eliminatoria.partidos:
+            if fecha == partido.fecha:
+                partido.ganador = ganador
