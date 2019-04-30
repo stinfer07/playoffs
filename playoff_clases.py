@@ -1,10 +1,10 @@
 from datetime import timedelta
 
 class Equipo:
-    def __init__(self, nombre, iniciales, logo = None):
+    def __init__(self, nombre, iniciales, img_logo = None):
         self.nombre = nombre
         self.iniciales = iniciales
-        self.logo = logo
+        self.img_logo = img_logo
 
     def __str__(self):
         return self.nombre + '(' + self.iniciales + ')'
